@@ -3,9 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgba(25, 24, 24, 0.762);
+}
 form{
-    /* background-color: rgb(102, 97, 97); */
-    margin: 20px;
+    background-color: rgb(28, 23, 23);
+    margin: 30px;
+    margin-top: 60px;
+    color: white;
 }
 .container{
     border: 1px solid black;
@@ -13,11 +18,35 @@ form{
 }
 input[type=email], input[type=password]{
     width: 100%;
-    padding: 15px;
+    display: block;
+    padding:10px;
     margin: 5px 0 25px 0;
-    border: 1px solid #f1f1f1;
+    /* border: 1px solid #f1f1f1; */
+
 }
 hr{
     border: 1px solid #f1f1f1;  
     margin-bottom: 30px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button a{
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+    margin:5px;
+    text-decoration: none;
+    color: black;
+}
+.button :nth-child(1){
+    background-color: rgb(17, 233, 17);
+}
+
+.button :nth-child(2){
+    background-color: rgb(230, 64, 64);
 }
